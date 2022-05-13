@@ -1,0 +1,23 @@
+{{>header}}
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-10 p-0 inputField text-center mb-5">
+            <input type="text" id="cityName" placeholder="Enter your City name..">
+            <input type="submit" value="search" id="submitBtn">
+        </div>
+        <div class="col-sm-6 col-10 p-0 text-light bg-dark rounded-3 output">
+            <div class="top d-flex justify-content-between shadow-lg">
+                <p id="day"></p>
+                <p id="today"></p>
+            </div>
+            <div class="main bg-dark">
+                <p id="city_name">Get Output Here</p>
+                <div class="d-flex data_hide justify-content-around mt-4 display-3 fw-bold">
+                    <p id="temp"></p>
+                    <p id="temp_status"><i class="bi bi-cloud-fill"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{>footer}}

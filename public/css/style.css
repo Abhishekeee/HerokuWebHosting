@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inputField {
+    position: relative;
+    width: 80%;
+}
+
+#cityName {
+    width: 100%;
+    background: #212529;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+
+#submitBtn {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    padding: 10px 20px;
+    background: rgb(0, 162, 255);
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+#submitBtn:hover {
+    background: #fff;
+    color: #00a2ff;
+}
+
+.top,
+.main {
+    background-color: #1c2025;
+    padding: 10px 15px;
+    border-radius: 15px
+}
+
+.main {
+    background-color: #393f4d;
+}
+
+#city_name {
+    color: rgb(179, 177, 177);
+}
+
+.output {
+    max-width: 25rem;
+}
+
+.data_hide {
+    visibility: hidden;
+}
