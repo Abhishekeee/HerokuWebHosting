@@ -39,6 +39,8 @@ const getInfo = async () => {
                 temp_status.innerHTML = `<i class="bi bi-cloud-fill"></i>`;
             else if (Temp_status == 'Rain')
                 temp_status.innerHTML = `<i class="bi bi-cloud-drizzle-fill text-info"></i>`;
+            else if (Temp_status == 'Snow')
+                temp_status.innerHTML = `<i class="bi bi-cloud-snow-fill"></i>`;
             else
                 temp_status.innerHTML = `<i class="bi bi-brightness-high-fill text-warning"></i>`;
 
